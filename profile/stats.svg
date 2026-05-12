@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #8d192b;
+            fill: #fff;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #862931;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #fff;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #862931;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fff;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #B71F36;
+      fill: #4c71f2;
       display: none;
     }
 
     .rank-circle-rim {
-      stroke: #8d192b;
+      stroke: #fff;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #8d192b;
+      stroke: #fff;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -102,6 +102,16 @@
         </style>
 
         
+        <defs>
+          <linearGradient
+            id="gradient"
+            gradientTransform="rotate(30)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0%" stop-color="#e96443" />,<stop offset="100%" stop-color="#904e95" />
+          </linearGradient>
+        </defs>
+        
 
         <rect
           data-testid="card-bg"
@@ -109,9 +119,9 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#e9d8d4"
+          stroke="#e4e2e2"
           width="449"
-          fill="#e9d8d4"
+          fill="url(#gradient)"
           stroke-opacity="1"
         />
 
