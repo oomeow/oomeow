@@ -5,7 +5,7 @@
 [![](https://visitcount.itsvg.in/api?id=oomeow&icon=7&color=5)](https://visitcount.itsvg.in)<br/>
 -->
 
-![total](https://github-readme-stats.vercel.app/api?username=oomeow&theme=rose&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![Stats](./profile/stats.svg)<br/>
 
 <!--
 ![](https://github-readme-streak-stats.herokuapp.com/?user=oomeow&theme=rose&hide_border=false)<br/>
